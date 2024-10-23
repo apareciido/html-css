@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    background-color: #83e1ad;
+    font-size: 16px;
+}
+header {
+    padding-top: 25px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #83e1ad, #063d1e);
+    text-align: center;
+    font-family: bebas neue;
+    color: white;
+
+
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #063d1e;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: Aria;
+    margin-right: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+nav > a:hover {
+    background-color: #83e1ad;
+    border-radius: 5px;
+    color: #063d1e;
+    transition: 200ms linear;
+}
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.droid, .droid2 {
+    font-family: idroid;
+    font-weight: lighter;
+    background-image: linear-gradient(to right, #83e1ad, #83e1ad00);    
+}
+.imagem {
+    margin: auto;
+}
+p {
+    text-indent: 30px;
+}
+.extra {
+    background-color: #89ffbe;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.212);
+
+}
+.extra ul {
+    list-style-position: inside;
+    columns: 2;
+}
+.div {
+    width: 50px;
+}

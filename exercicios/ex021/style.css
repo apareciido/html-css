@@ -1,0 +1,31 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgba(48, 47, 47, 0.959);
+}
+header {
+    background-color: #14a1ff;
+    color: aliceblue;
+    text-align: center;
+    height: 180px;
+}
+header > h1 {
+    padding-top: 35px;
+}
+header > p {
+    font-size: large;
+    padding-top: 20px;
+    width: 350px;
+    margin: auto;
+}
+main {
+    width: 720px;
+    margin: auto;
+}
+#secao01 {
+    background-color: rebeccapurple;
+    height: 150px;
+}

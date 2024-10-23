@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizando Uma Div</title>
+    <style>
+        * {
+            margin: auto;
+        }
+        body {
+            background-image: linear-gradient(to left, #0d76ee, rgb(6, 64, 141));
+        }
+        .parent {
+            margin: auto;
+            height: 900px;
+            width: 720px;
+            background-color: rgb(44, 43, 43);
+            align-content: center;
+        }
+        .child {
+            background-color: yellowgreen;
+            width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+            padding: auto;
+
+        }
+        .child > h1 {
+            padding-bottom: 20px;
+        }
+        form {
+            label {
+                margin: 5px;
+            }
+            input {
+                margin: 10px;
+            }
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <h1>Content</h1>
+            <form action="submmit">
+                <label for="nome">Nome</label>
+                <input placeholder="Nome" type="text"><br>
+                <label for="email">E-mail</label>
+                <input placeholder="email" type="email" name="email" id="email"><br>
+                <label for="password">Password</label>
+                <input placeholder="Senha" type="password" name="Senha" id="senha"><br>
+                <input type="button" value="Enviar">
+
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
